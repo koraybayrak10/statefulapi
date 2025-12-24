@@ -1,0 +1,43 @@
+/* Genel arka plan */
+body {
+    background-color: #0f172a !important;
+}
+
+/* Üst bar */
+.swagger-ui .topbar {
+    background-color: #020617 !important;
+}
+
+/* Logo yazısını gizle */
+.swagger-ui .topbar .link span {
+    display: none;
+}
+
+/* Kartlar */
+.swagger-ui .opblock {
+    background: #020617 !important;
+    border-radius: 12px !important;
+    border: 1px solid #1e293b !important;
+}
+
+/* GET / POST renkleri */
+.swagger-ui .opblock.opblock-get {
+    border-color: #22c55e !important;
+}
+.swagger-ui .opblock.opblock-post {
+    border-color: #3b82f6 !important;
+}
+
+/* Metinler */
+.swagger-ui,
+.swagger-ui label,
+.swagger-ui span,
+.swagger-ui p {
+    color: #e5e7eb !important;
+}
+
+/* Butonlar */
+.swagger-ui .btn.execute {
+    background-color: #22c55e !important;
+    border-radius: 8px !important;
+}
